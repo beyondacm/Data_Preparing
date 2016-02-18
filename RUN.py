@@ -16,16 +16,16 @@ import json
 import string
 '''
 
-FILE = 'Depression'
+FILE = 'Arthritis'
 
 PATH_IN  = './' + FILE + '/'
 PATH_OUT = './' + FILE + '/'
 
-#generate_qapair(PATH_IN, PATH_OUT);
+generate_qapair(PATH_IN, PATH_OUT);
 
-#extract_qid(PATH_IN, PATH_OUT);
+extract_qid(PATH_IN, PATH_OUT);
 
-#filter_qid(PATH_IN, PATH_OUT);
+filter_qid(PATH_IN, PATH_OUT);
 
 format_data(PATH_IN, PATH_OUT, FILE)
 

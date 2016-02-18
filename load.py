@@ -73,7 +73,7 @@ def format_data(PATH_IN, PATH_OUT, FILE):
 
 	#m.to_json(PATH_OUT + 'total01.json')
 	
-	m.to_csv(PATH_OUT +'depression.csv', encoding='utf-8', index = False)
+	m.to_csv(PATH_OUT + FILE + '.csv', encoding='utf-8', index = False)
 
 	f1.close()
 	f2.close()
