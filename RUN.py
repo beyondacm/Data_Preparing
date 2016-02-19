@@ -21,12 +21,29 @@ FILE = 'Arthritis'
 PATH_IN  = './' + FILE + '/'
 PATH_OUT = './' + FILE + '/'
 
-generate_qapair(PATH_IN, PATH_OUT);
+#generate_qapair(PATH_IN, PATH_OUT);
 
-extract_qid(PATH_IN, PATH_OUT);
+#extract_qid(PATH_IN, PATH_OUT);
 
-filter_qid(PATH_IN, PATH_OUT);
+#filter_qid(PATH_IN, PATH_OUT);
 
-format_data(PATH_IN, PATH_OUT, FILE)
+#format_data(PATH_IN, PATH_OUT, FILE)
+
+filenames = [   './Allergy/Allergy.csv',
+                './Depression/Depression.csv',
+                './Arthritis/Arthritis.csv',
+                './Alzheimer/Alzheimer.csv' ]
+
+with open('./Total.csv','w') as outfile:
+    for fname in filenames:
+        with open(fname) as infile:
+            outfile.write(infile.read())
+
+
+
+
+
+
+
 
 
