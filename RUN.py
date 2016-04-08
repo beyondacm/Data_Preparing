@@ -21,12 +21,16 @@ FILE = 'Arthritis'
 PATH_IN  = './' + FILE + '/'
 PATH_OUT = './' + FILE + '/'
 
+# parse_vote.py :
 #generate_qapair(PATH_IN, PATH_OUT);
 
+# extract_qid.py :
 #extract_qid(PATH_IN, PATH_OUT);
 
+# training_set.py :
 #filter_qid(PATH_IN, PATH_OUT);
 
+# load.py : 
 #format_data(PATH_IN, PATH_OUT, FILE)
 
 filenames = [   './Allergy/Allergy.csv',

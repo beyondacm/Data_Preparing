@@ -1,5 +1,6 @@
 # Generate the qapair.txt 
-# Display the Question-Answer_Vote-NumOfAnswer
+# File qapair.txt is in this format : 
+# Question_id , Answer0_vote , Answer1_vote , ... , NumOfAnswer
 
 import re
 
